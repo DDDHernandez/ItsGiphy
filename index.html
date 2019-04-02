@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Let's Get Giphy</title>
+</head>
+
+<body style="background-color: lightslategray">
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="jumbotron" style="background-color: lightgreen">
+                <div class="container">
+                     <h1 class="display-3 justify-content-center d-flex" style="color: whitesmoke">TV Series Giphy Webpage!</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+    <div class="row">
+            <div class="col-md-5">
+                    <form id="Tv-Input">
+                        <label for="TV-input" style="font-size: 18px;"><b>Add a TV series</b></label>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="TV-Show" placeholder="Enter a TV Show">
+                            <div class="input-group-append">
+                                <button class="btn btn-info" id="add-Series" type="button">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+    
+            </div>            
+    </div>
+    <div class="col-md-7"></div>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="d-md-flex" id="buttons" style="justify-content: center">
+            </div>
+        </div>
+    <br>
+    <br>
+    <br>
+  
+        <div class="col-sm-12">
+            <div id="TV-series" style="text-align: center"> </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./assets/javascript/giphy.js"></script>
+</body>
+</html>
